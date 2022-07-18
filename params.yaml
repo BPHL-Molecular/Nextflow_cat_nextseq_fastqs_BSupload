@@ -1,0 +1,7 @@
+# The parameter "input" is the absolute directory of your raw fastqs data. Do not include the "/" at the end of your directory.
+# The parameter "project" is a BaseSpace project name that you want to call 
+input       : "/blue/bphl-florida/dongyibo/NextFlowDev/nextflow_slurm_v0.1/raw_fastqs"
+project     : "BS-test072022-23"
+
+
+
