@@ -1,6 +1,6 @@
 How to run the pipeline:
 1. Install NextFlow from https://www.nextflow.io/docs/latest/getstarted.html
-2. Download the whold folder of the pipeline from github and move to any directory in your computer
+2. Download the whole folder of the pipeline from github and move to any directory in your computer
 3. Put all datafiles in the format of "*.fastq.gz" into the folder "raw_fastqs".
 4. Open the file "params.yaml" and set the paramters:
         1) The parameter "input" is the absolute directory of your raw fastqs data. Do not include the "/" at the end of your directory.
