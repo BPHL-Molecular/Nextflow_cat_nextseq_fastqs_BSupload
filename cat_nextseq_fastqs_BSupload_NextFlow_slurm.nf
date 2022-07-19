@@ -25,7 +25,6 @@ A = Channel.fromList(sampleNames)
 
 "bs create project -n ${params.project}".execute()
 
-
 //mix 1-4 lanes of each sample, and then upload mixted result of each sample to the project in BaseSpace Sequence Hub
 process mixLanes {
    input:
