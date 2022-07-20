@@ -1,6 +1,6 @@
 ############################
 What to do:
-The pipeline can mix the NGS sequensing data from multiple lanes into one dataset for each sample. As parallel algorithm is applied in the pipeline, the running speed will be greatly improved when there are a lot of samples to handle.  
+The pipeline is developed using NextFlow. It can mix the NGS sequensing data from multiple lanes into one dataset for each sample. As parallel algorithm is applied in the pipeline, the running speed will be greatly improved when there are a lot of samples to handle.  
 
 
 ###########################
