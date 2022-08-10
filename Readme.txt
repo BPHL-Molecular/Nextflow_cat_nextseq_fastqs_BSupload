@@ -5,7 +5,13 @@ The pipeline is developed using NextFlow workflow. It can mix the NGS sequensing
 
 ###########################
 How to run the pipeline:
-1. Install NextFlow from https://www.nextflow.io/docs/latest/getstarted.html
+1. Install NextFlow:
+      1) Use curl or wget to install, see https://www.nextflow.io/docs/latest/getstarted.html
+      2) Use conda or mamba to install Nextflow:
+             $conda install -c conda-forge mamba
+             $mamba create -n nextflow -c bioconda -c conda-forge nextflow=21.10.6
+         Then activate the environment with:
+             $conda activate nextflow            
 2. Download the whole folder of the pipeline from github and move to any directory in your computer
 3. Put all datafiles in the format of "*.fastq.gz" into the folder "raw_fastqs".  Note: the pipeline can only mix the sample with 4 lanes of paired data files. Namely, for each sample, there are "...L001...R1...fastq.gz", "...L002...R1...fastq.gz", "...L003...R1...fastq.gz", "...L004...R1...fastq.gz","...L001...R2...fastq.gz", "...L002...R2...fastq.gz", "...L003...R2...fastq.gz", "...L004...R2...fastq.gz".
 4. Open the file "params.yaml" and set the paramters:
